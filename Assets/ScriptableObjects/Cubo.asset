@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d703c5bd6e31d4fa15bab26cd95c58, type: 3}
+  m_Name: Cubo
+  m_EditorClassIdentifier: 
+  vectorTranslation: {x: 0, y: 0, z: 0}
+  scaleVector: {x: 1, y: 1, z: 1}
+  pivots:
+  - localPosition: {x: -2, y: -2, z: -2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 010000000200000004000000
+  - localPosition: {x: -2, y: -2, z: 2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 000000000300000005000000
+  - localPosition: {x: -2, y: 2, z: -2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 000000000300000006000000
+  - localPosition: {x: -2, y: 2, z: 2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 010000000200000007000000
+  - localPosition: {x: 2, y: -2, z: -2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 000000000500000006000000
+  - localPosition: {x: 2, y: -2, z: 2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 010000000400000007000000
+  - localPosition: {x: 2, y: 2, z: -2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 
+  - localPosition: {x: 2, y: 2, z: 2}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    pivotConnections: 030000000500000006000000
